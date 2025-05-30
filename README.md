@@ -20,4 +20,4 @@ Clone the repository:
 
 ```bash
 https://github.com/Akhilasanoop/AI_voice_generater.git
-cd PythonProject
+cd AI_voice_generater
