@@ -19,5 +19,5 @@ A Python-based application that [briefly explain what your project does — e.g.
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/PythonProject.git
+https://github.com/Akhilasanoop/AI_voice_generater.git
 cd PythonProject
