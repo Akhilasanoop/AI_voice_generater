@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Girl Avatar TTS</title>
+  <link rel="stylesheet" href="{% static 'avatarapp/style.css' %}">
+</head>
+<body>
+  <div class="container">
+    <h1>👧 AI Voice Avatar</h1>
+    <img src="https://media.tenor.com/GfSX-u7VGM4AAAAC/cute-girl.gif" class="avatar" alt="girl avatar" />
+    
+    <textarea id="text-input" placeholder="Type your message here..."></textarea><br/>
+
+    <label for="language">Choose Language:</label>
+    <select id="language">
+      <option value="en-US">English</option>
+      <option value="ml-IN">Malayalam</option>
+    </select>
+
+    <label for="voiceSelect">Choose Voice:</label>
+    <select id="voiceSelect"></select>
+
+    <button onclick="speakText()">Speak</button>
+
+    <div id="typed-text"></div>
+  </div>
+
+  <script src="{% static 'avatarapp/script.js' %}"></script>
+</body>
+</html>
